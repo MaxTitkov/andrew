@@ -1,0 +1,76 @@
+.background-section{
+  background-image: url('src/big_banner.jpg');
+  background-size: cover;
+}
+
+.text-background{
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 8px;
+}
+
+.subtitle{
+  margin-top: 5px!important;
+}
+
+.is-grey{
+  background-color: rgba(231, 231, 231, 0.5)!important;
+}
+
+.is-dark-blue{
+  background-color: rgba(66, 63, 70, 1)!important;
+}
+
+.shorten{
+  width: 60%!important;
+}
+
+.formula-img{
+  width: 40%;
+}
+
+.navbar-item{
+  color: white!important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.navbar-item, .button{
+  font-size: 20px!important;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-menu {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100vh;
+    background-color: rgba(231, 231, 231, 1)!important;
+  }
+  .burger{
+    z-index: 100;
+    background-color: black;
+  }
+  .navbar-burger:hover {
+    background-color: transparent!important;
+  }
+  .navbar-item, .button{
+    font-size: 25px!important;
+    color: black!important;
+  }
+  .navbar-end{
+    margin-top: 10vh!important;
+  }
+
+}
+
+img.first-img{
+  width: 100%!important;
+}
+img.second-img{
+  width: 67%!important;
+}
+img.third-img{
+  width: 72%!important;
+}
